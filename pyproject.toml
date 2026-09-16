@@ -9,6 +9,11 @@ description = "抗量子龙虾：OpenClaw 抗量子安全层（ML-KEM-768 + ML-D
 readme = "README.md"
 requires-python = ">=3.9"
 license = { text = "MIT" }
+dependencies = [
+    "cryptography",
+    "pqcrypto",
+    "pytest",
+]
 
 [project.scripts]
 pqclaw = "pqclaw.cli:main"
