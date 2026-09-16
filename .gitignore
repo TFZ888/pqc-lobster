@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+.pytest_cache/
+
+# 密钥与密文（绝不能提交）
+*.key
+*.sig
+*.sealed
+.env
+
+# 系统
+.DS_Store

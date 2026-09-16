@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pqclaw"
+version = "1.0.0"
+description = "抗量子龙虾：OpenClaw 抗量子安全层（ML-KEM-768 + ML-DSA-65）"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+
+[project.scripts]
+pqclaw = "pqclaw.cli:main"
+
+[tool.setuptools]
+packages = ["pqclaw"]
