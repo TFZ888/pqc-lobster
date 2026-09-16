@@ -1,4 +1,6 @@
 # pqclaw —— 抗量子龙虾 🦞
+[![CI](https://github.com/TFZ888/pqc-lobster/actions/workflows/ci.yml/badge.svg)](https://github.com/TFZ888/pqc-lobster/actions)
+
 
 给开源 AI 智能体 OpenClaw（昵称"龙虾"）加上**抗量子密码安全层**。
 
